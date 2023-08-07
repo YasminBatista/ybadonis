@@ -1,0 +1,18 @@
+### registrar usuario
+POST http://127.0.0.1:3333/register HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "yasmin",
+    "email": "yasminbdsouza83@gmail.com",
+    "password": "1234"
+}
+### autenticar usuario
+POST http://127.0.0.1:3333/register HTTP/1.1
+Content-Type: application/json
+
+{
+    
+    "email": "yasminbdsouza83@gmail.com",
+    "password": "1234"
+}
